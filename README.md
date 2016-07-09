@@ -1,6 +1,6 @@
-# zarinpal-composer-library [![Build Status](https://travis-ci.org/RTLer/zarinpal-composer-library.svg?branch=master)](https://travis-ci.org/RTLer/zarinpal-composer-library) [![Coverage Status](https://coveralls.io/repos/github/RTLer/zarinpal-composer-library/badge.svg?branch=master)](https://coveralls.io/github/RTLer/zarinpal-composer-library?branch=master)
+# zarinpal-composer-library
 
-transaction request library for zarinpal
+Transaction request library for zarinpal
 
 ##laravel ready
 this package is going to work with all kinds of projects, but for laravel i add provider to make it as easy as possible.
@@ -23,13 +23,13 @@ Zarinpal::verify('OK',1000,$answer['Authority']);
 
 
 ##usage
-###installation 
-``composer require zarinpal/zarinpal``
+###installation
+``composer require atbox/zarinpal``
 or
 ```json
 "require": {
     ...
-    "zarinpal/zarinpal" : "1.*",
+    "atbox/zarinpal" : "1.*",
     ...
 },
 ```
@@ -76,5 +76,3 @@ or nuSoap:
 use Zarinpal\Drivers\NuSoap;
 $test = new Zarinpal('XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',new NuSoap());
 ```
-
-
