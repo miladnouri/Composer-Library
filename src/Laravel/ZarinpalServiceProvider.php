@@ -30,7 +30,7 @@ class ZarinpalServiceProvider extends ServiceProvider
                     break;
                 case 'NuSoap':
                     $wsdlAddress = config('Zarinpal.wsdl_address', 'https://www.zarinpal.com/pg/services/WebGate/wsdl');
-                    $driver = new NuSoapDriver();
+                    $driver = new NuSoapDriver($wsdlAddress);
                     break;
                 default:
                     $baseUrl = config('Zarinpal.rest_base_url', 'https://www.zarinpal.com/pg/rest/WebGate/');
