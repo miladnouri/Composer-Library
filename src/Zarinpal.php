@@ -84,9 +84,12 @@ class Zarinpal
         }
     }
 
-    public function redirect()
+    public function redirect($zarinGate = false)
     {
-        header('Location: ' . $this->startPayAddress . $this->Authority);
+        if(!$zarinGate)
+            header('Location: ' . $this->startPayAddress . $this->Authority);
+        else
+            header('Location: ' . $this->startPayAddress . $this->Authority . '/ZarinGate');
         die;
     }
 
