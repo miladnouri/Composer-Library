@@ -76,3 +76,10 @@ or nuSoap:
 use Zarinpal\Drivers\NuSoap;
 $test = new Zarinpal('XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',new NuSoap());
 ```
+
+##Zaringate
+for redirect user to Zaringate instead of Zarinpal gateway, pass true as first parameter of redirect method (as default user will redirect to Zarinpal gateway with this method):
+
+```php
+Zarinpal::redirect(true);
+```
