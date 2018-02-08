@@ -1,11 +1,19 @@
 {
     "name": "atbox/zarinpal",
     "description": "transaction request system for zarinpal",
-    "license": "GPL2",
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "hooman naghiee",
             "email": "hooman@zarinpal.com"
+        },
+        {
+        	"name": "Sajjad Rad",
+        	"email": "sajjad@atbox.io"
+        },
+        {
+        	"name": "Hamed Nemati",
+        	"email": "hamed@atbox.io"
         }
     ],
     "minimum-stability": "stable",
