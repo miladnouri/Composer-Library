@@ -26,6 +26,7 @@
     "autoload": {
         "classmap": [
             "src/Drivers/lib/nusoap.php"
+           
         ],
         "psr-4": {
             "Zarinpal\\": "src/"
